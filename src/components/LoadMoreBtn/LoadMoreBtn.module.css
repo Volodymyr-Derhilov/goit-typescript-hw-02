@@ -1,0 +1,20 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 160px;
+  height: 40px;
+  background: #3747ac;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-bottom: 20px;
+}

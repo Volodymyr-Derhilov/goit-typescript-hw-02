@@ -1,0 +1,15 @@
+.modal {
+  background-color: #44444490;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  border: none;
+}
+
+.img {
+  display: block;
+  height: 600px;
+  width: 1120px;
+}
