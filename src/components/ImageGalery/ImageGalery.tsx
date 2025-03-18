@@ -1,8 +1,8 @@
 import css from './ImageGalery.module.css'
 import ImageCard from '../ImageCard/ImageCard'
-import { ImageGalery } from '../../Types.type'
+import type { ImageGaleryType } from '../../Types.type'
 
-export default function ImageGalery({images, onImageClick}: ImageGalery) {
+export default function ImageGalery({images, onImageClick}: ImageGaleryType) {
     return (
         <ul className={css.ImageGalery}>
             {

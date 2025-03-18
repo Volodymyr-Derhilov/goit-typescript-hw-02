@@ -12,7 +12,7 @@ export type imgObject = {
 
 type onImageClick = (full: string, alt: string) => void;
 
-export type ImageCard = {
+export type ImageCardType = {
     img: imgObject,
     onImageClick: onImageClick
 }
@@ -30,7 +30,7 @@ type result = {
 
 export type Request = (query: string, page: number) => Promise<result>
 
-export type ImageGalery = {
+export type ImageGaleryType = {
     images: imgObject[],
     onImageClick: onImageClick
 }

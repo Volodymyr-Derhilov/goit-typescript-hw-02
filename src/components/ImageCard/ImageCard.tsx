@@ -1,7 +1,7 @@
-import { ImageCard } from '../../Types.type';
+import { ImageCardType } from '../../Types.type';
 import css from './ImageCard.module.css'
 
-export default function ImageCard({ img, onImageClick } : ImageCard) {
+export default function ImageCard({ img, onImageClick } : ImageCardType) {
     const link = img.urls.small;
     const alt = img.alt_description;
 
